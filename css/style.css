@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+/* -------head mneu bar------- */
+
+
+/* -------Cover-img-part------- */
+
+.img-part1{
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-content{
+    margin-top:25% ;
+}
+.img-content p{
+   
+    width: 50%;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+.img-content h1{
+    font-size: 70px;
+    color: white;
+}
+
+/* -------------------------------- Grid 1 Part----------------------------------- */
+.grid1{
+    margin: 30px;
+    justify-content: space-between;
+    color: white;
+}
+.grid1 p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.grid1-left {
+    max-width: 100%;
+    height: 430px;
+    background-image: url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.grid1-right img {
+    
+    margin-bottom: 20px;
+    width: 100%;
+    height: 206px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ----------End ---------------------- Grid 1 Part----------------------------------- */
+
+/* -- ---------------grid 2 part----------------- */
+.part2{
+    background-color: rgba(157, 204, 159, 0.479);
+    padding: 30px 0;
+}
+.grid2{
+    margin: 30px;
+    justify-content: space-between;
+}
+
+/* --End ---------------grid 2 part----------------- */
+
+ /* -----------------Content 1 part-------------------- */
+ .content{
+     width: 100%;
+    padding: 10px;
+ }
+.content1{
+    text-align: center;
+}
+.content1 hr{
+    width:10%; 
+    height:4px; 
+    margin: auto;
+    /* text-align:center; */
+    /* margin-left:0;  */
+    color:black;
+    background-color:black;
+}
+.content img{
+    width: 100%;
+}
+ /* ---End --------------Content 1 part-------------------- */
+
+  /* --- --------------Content 2 part-------------------- */
+.content2{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+  /* ---End --------------Content 2 part-------------------- */
+
+/* <!-- ---------------------Bottom part------------------- --> */
+.row{
+    margin-top: 30px
+}
+  /* .map{
+      margin: 20px;
+  } */
+.contacts{
+    padding-left: 30px;
+}
+.contacts hr{
+    width:10%; 
+    color: tomato;
+    background-color:tomato;
+    height:2px
+}
+.fa{
+    margin-right: 20px;
+}
+  /* <!--End ---------------------Bottom part------------------- --> */
